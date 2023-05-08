@@ -42,7 +42,7 @@ jobs:
   Run_Bot:
 
     runs-on: ubuntu-latest
-    timeout-minutes: 60 # HASTAG THIS LINE IF YOU DON'T WANT TO LIMIT THE WORKFLOWS RUN TIME
+    timeout-minutes: 90 # HASTAG THIS LINE IF YOU DON'T WANT TO LIMIT THE WORKFLOWS RUN TIME
 
     steps:
     - name: checkout
